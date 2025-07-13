@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paradizze Design | Móveis Planejados</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+    .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .content {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+      padding: 40px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+    }
+    h1 {
+      font-size: 36px;
+      color: gold;
+    }
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+      color: #f1f1f1;
+    }
+    a.btn {
+      background-color: gold;
+      color: #111;
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    a.btn:hover {
+      background-color: #e0c200;
+    }
+    footer {
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      color: #ccc;
+      font-size: 14px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Paradizze Design</h1>
+      <p>Transforme seu apê novo com móveis planejados de alto padrão.</p>
+      <p>Baixe nosso guia gratuito e receba atendimento exclusivo via WhatsApp.</p>
+      <a class="btn" href="https://wa.me/5511956589135" target="_blank">Quero meu Guia</a>
+    </div>
+    <footer>&copy; 2025 Paradizze Design | WhatsApp: (11) 95658-9135</footer>
+  </div>
+</body>
+</html>
